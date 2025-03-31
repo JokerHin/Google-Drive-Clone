@@ -7,10 +7,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <section className="hidden w-1/2 items-center justify-center bg-brand p-10 lg:flex xl:w-2/5">
         <div className="flex max-h-[800px] max-w-[430px] flex-col justify-center space-y-12">
           <Image
-            src="/favicon.ico"
+            src="/assets/icons/logo-full.svg"
             alt="logo"
-            width={16}
-            height={16}
+            width={224}
+            height={82}
             className="h-auto"
           />
 
