@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { getFiles } from "@/lib/actions/file.actions";
 import { Models } from "node-appwrite";
-import Thumbnail from "@/components/Thumbnail";
+import Thumbnail from "@/components/Thumbnial";
 import FormattedDateTime from "@/components/FormattedDateTime";
 import { useDebounce } from "use-debounce";
 const Search = () => {
