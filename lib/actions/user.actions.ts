@@ -1,10 +1,3 @@
-// Create account flow
-// 1. User enters full name and email
-// 2. Check if user already exist using the email (we will use this to send OTP)
-// 3. Send OTP to user's email
-// 4. This will send a secret key for creating a session.
-// 5. Create a new userdocument if the user is a new user
-// 6. Return the user's accountId that will be used to to complete the log
 "use server";
 
 import { createAdminClient, createSessionClient } from "@/lib/appwrite";
